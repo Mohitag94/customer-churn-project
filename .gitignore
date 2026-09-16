@@ -8,3 +8,5 @@ wheels/
 
 # Virtual environments
 .venv
+Data/raw/
+Data/customer_churn.duckdb
