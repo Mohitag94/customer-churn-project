@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS churn.train_customers (
+ AccountAge INTEGER,
+MonthlyCharges DOUBLE,
+TotalCharges DOUBLE,
+SubscriptionType VARCHAR,
+PaymentMethod VARCHAR,
+PaperlessBilling VARCHAR,
+ContentType VARCHAR,
+MultiDeviceAccess VARCHAR,
+DeviceRegistered VARCHAR,
+ViewingHoursPerWeek DOUBLE,
+AverageViewingDuration DOUBLE,
+ContentDownloadsPerMonth INTEGER,
+GenrePreference VARCHAR,
+UserRating DOUBLE,
+SupportTicketsPerMonth INTEGER,
+Gender VARCHAR,
+WatchlistSize INTEGER,
+ParentalControl VARCHAR,
+SubtitlesEnabled VARCHAR,
+CustomerID VARCHAR PRIMARY KEY,
+Churn INTEGER
+)
